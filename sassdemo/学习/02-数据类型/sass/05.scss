@@ -1,0 +1,22 @@
+$color:hsla(222,100%,50%,0.5);
+.app{
+  line-height: 30px;
+  text-align: center;
+  p{
+    font-size: 38px;
+    //color: #f50000;
+    //color: hsl(0,100,50%);
+    //color: $color;
+
+    //color: adjust_hue($color,137deg);
+
+    //color: lighten($color,30%);
+    //color: darken($color,30%);
+
+    //color: desaturate($color,30%);
+    //color: saturate($color,30%);
+
+    color: opacify($color,0.1);
+    //color: transparentize($color,0.1);
+  }
+}

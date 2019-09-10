@@ -1,0 +1,14 @@
+//@if(条件){
+//  ...
+//}
+
+$theme:"dark";
+body {
+  @if $theme == dark {
+    background-color: black;
+  } @else if $theme == light {
+    background: white;
+  } @else {
+    background: gray;
+  }
+}

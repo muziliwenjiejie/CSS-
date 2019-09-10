@@ -1,0 +1,10 @@
+//@each $var in $list{
+//  ...
+//}
+
+$icons: success error warning;
+@each $icon in $icons{
+  .icon-#{$icon}{
+    background-image: url("../img/icons/#{$icon}.png");
+  }
+}

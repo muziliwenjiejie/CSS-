@@ -1,0 +1,15 @@
+$color:pink;
+$border:1px solid $color;
+$w:width;
+//$app:'.app';
+
+div.box{
+  background: $color;
+  .app{
+    $w: 100px;
+    height: 100px;
+    background: aquamarine;
+    //border: 1px solid $color;//或者
+    border: $border;
+  }
+}

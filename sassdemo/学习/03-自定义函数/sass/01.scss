@@ -1,0 +1,16 @@
+//@function 名称 (参数1，参数2){
+//  ...
+//}
+
+$colors:(light:#ffffff,dark:#000000);
+@function color($key){
+  @if map_has_key($colors,$key){
+    //@warn '无找到#{$key}这个key';
+    @error '无找到#{$key}这个key';
+  }
+  @return map-get($colors,$key);
+}
+
+body{
+  background: color(light);
+}

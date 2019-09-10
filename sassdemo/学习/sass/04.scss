@@ -1,0 +1,33 @@
+//@mixin 名字 (参数1，参数2...){
+//  ...
+//}
+
+//无参数
+//@mixin warp{
+//  color: white;
+//  background: deeppink;
+//  a{
+//    color: pink;
+//  }
+//}
+//
+//.app{
+//  @include warp;
+//}
+
+
+//有参数
+@mixin warp($color,$background){
+  color: $color;
+  background: $background;
+  a{
+    color: darken($background,0.5%);
+  }
+}
+
+.app{
+  @include warp(white,deeppink);
+}
+.info{
+  @include warp($color:pink,$background:yellow)
+}

@@ -1,0 +1,25 @@
+.app {
+  height: 400px; }
+  .app ul {
+    margin: 0; }
+    .app ul li {
+      list-style: none;
+      padding: 5px; }
+      .app ul li a {
+        font-size: 12px;
+        color: #f50000; }
+        .app ul li a:hover {
+          background: pink;
+          color: #8a8a8a; }
+  .app text {
+    font-size: 20px; }
+
+.wrap {
+  font-size: 12px;
+  font-family: "Bangla Sangam MN";
+  font-weight: bold;
+  border: 1px solid pink;
+    border-left: 0;
+    border-radius: 10px; }
+
+/*# sourceMappingURL=03.css.map */

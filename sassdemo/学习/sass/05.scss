@@ -1,0 +1,14 @@
+.app{
+  padding: 5px;
+}
+.app a{
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+}
+.app_text{
+  @extend .app;
+  background: pink;
+  width: 200px;
+  height: 200px;
+}

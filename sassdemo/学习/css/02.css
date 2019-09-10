@@ -1,0 +1,8 @@
+div.box {
+  background: pink; }
+  div.box .app {
+    height: 100px;
+    background: aquamarine;
+    border: 1px solid pink; }
+
+/*# sourceMappingURL=02.css.map */

@@ -1,0 +1,14 @@
+.app, .app_text {
+  padding: 5px; }
+
+.app a, .app_text a {
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center; }
+
+.app_text {
+  background: pink;
+  width: 200px;
+  height: 200px; }
+
+/*# sourceMappingURL=05.css.map */

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>初次邂逅less</title>
+
+    <style type="text/less">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*#wrap{*/
+            /*position: relative;*/
+            /*width: 300px;*/
+            /*height: 400px;*/
+            /*border: 1px solid #333333;*/
+            /*margin: 0 auto;*/
+        /*}*/
+        /*#wrap .inner{*/
+            /*position: absolute;*/
+            /*left: 0;*/
+            /*top: 0;*/
+            /*right: 0;*/
+            /*bottom: 0;*/
+            /*margin: auto;*/
+            /*background: pink;*/
+            /*height: 100px;*/
+            /*width: 100px;*/
+        /*}*/
+        /*less改进
+        1.安装npm install -g less这是node 引入包
+        2.咱们用浏览器的<style type="text/less">
+        3.把less转化css————————>02-使用考拉编译
+        */
+
+
+        #wrap{
+            position: relative;
+            width: 300px;
+            height: 400px;
+            border: 1px solid #333333;
+            margin: 0 auto;
+            .inner{
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                background: pink;
+                height: 100px;
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div class="inner">
+
+    </div>
+</div>
+<script src="less/less.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+$v:'0.0.1';
+/*项目的版本号：#{$w}*/
+$name:'info';
+$attr:'border';
+
+.app-#{$name}{
+  #{$attr}-color:#ccc;
+}

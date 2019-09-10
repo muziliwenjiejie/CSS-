@@ -1,0 +1,15 @@
+//@for $var from <开始值> through <结束值>{
+//  ...
+//}
+
+$columns:6;
+@for $i from 1 through $columns {
+//@for $i from 1 to $columns {
+  .col-#{$i}{
+    width: 100% / $columns*$i;
+    height: 20px;
+    background: rgba(225/$i,225/$i,0,0.4);
+    padding: 5px;
+    margin: 10px 0;
+  }
+}
